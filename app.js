@@ -1,7 +1,15 @@
 // Ajoute tes ressources dans cette liste. Exemple :
 // { niveau: '6e', type: 'cours', titre: 'Les fractions', description: 'Cours au format PDF', fichier: 'ressources/6e-fractions.pdf' },
 // Types possibles : 'cours', 'exercice', 'corrige'.
-const ressources = [];
+const ressources = [
+  {
+    niveau: '3e',
+    type: 'cours',
+    titre: 'Chapitre 2 — Homothéties et Thalès',
+    description: 'Cours, exercices et activités sur Digipad',
+    fichier: '3e-chapitre-2.html'
+  }
+];
 
 const liste = document.getElementById('resource-list');
 const niveauSelect = document.getElementById('niveau');
