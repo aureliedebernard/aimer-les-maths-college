@@ -8,6 +8,13 @@ const ressources = [
     titre: 'Chapitre 2 — Homothéties et Thalès',
     description: 'Cours, exercices et activités sur Digipad',
     fichier: '3e-chapitre-2.html'
+  },
+  {
+    niveau: '6e',
+    type: 'cours',
+    titre: 'Chapitre 2 — Angles',
+    description: 'Cours, exercices et activités sur Digipad',
+    fichier: '6e-chapitre-2.html'
   }
 ];
 
